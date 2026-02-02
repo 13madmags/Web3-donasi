@@ -1,0 +1,109 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #ffe4ec, #fff1f4);
+  min-height: 100vh;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 420px;
+  margin: 60px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 12px 30px rgba(255, 99, 132, 0.15);
+  text-align: center;
+}
+
+/* TITLE */
+h1 {
+  color: #c9184a;
+  margin-bottom: 20px;
+}
+
+/* WALLET INFO */
+.wallet-info {
+  background: #fff0f5;
+  border-radius: 14px;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6a1a2f;
+  word-break: break-all;
+}
+
+/* DONATE BOX */
+.donate-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.donate-box input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1.5px solid #ffb3c6;
+  outline: none;
+  font-size: 14px;
+}
+
+.donate-box input:focus {
+  border-color: #c9184a;
+}
+
+/* BUTTONS */
+button {
+  background: linear-gradient(135deg, #ff4d6d, #c9184a);
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(201, 24, 74, 0.35);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* DONATION LIST */
+h3 {
+  color: #c9184a;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 13px;
+  color: #6a1a2f;
+}
+
+p:not(.error) {
+  background: #fff5f8;
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin: 6px 0;
+  word-break: break-all;
+}
+
+/* ERROR */
+.error {
+  margin-top: 15px;
+  color: #c9184a;
+  background: #ffe0e9;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 13px;
+}
