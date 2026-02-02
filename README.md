@@ -123,7 +123,7 @@ Proyek dimulai dengan menentukan konsep aplikasi Web3 sederhana namun relevan, y
 ---
 ## Pengujian RESTful API
 
-Pengujian RESTful API dilakukan menggunakan Postman untuk memastikan endpoint backend dapat diakses dan mengembalikan data sesuai spesifikasi tugas.
+Pengujian RESTful API dilakukan menggunakan Postman untuk memastikan endpoint backend dapat diakses dan mengembalikan data.
 
 ### Endpoint Dummy Transaksi
 
