@@ -121,7 +121,33 @@ Proyek dimulai dengan menentukan konsep aplikasi Web3 sederhana namun relevan, y
 * Pencatatan transaksi on-chain dan off-chain
 
 ---
+## Pengujian RESTful API
 
+Pengujian RESTful API dilakukan menggunakan Postman untuk memastikan endpoint backend dapat diakses dan mengembalikan data sesuai spesifikasi tugas.
+
+### Endpoint Dummy Transaksi
+
+Method: GET
+
+Endpoint: /api/transactions
+
+Query Parameter: Tidak ada
+
+Endpoint ini mengembalikan data transaksi dummy dalam format JSON sebagai simulasi RESTful API.
+
+Endpoint Donasi
+
+Method: GET
+
+Endpoint: /api/donations
+
+Digunakan untuk mengambil data donasi yang telah tersimpan di backend.
+
+Method: POST
+
+Endpoint: /api/donations
+
+Digunakan untuk menerima dan mencatat data donasi yang dikirim dari frontend setelah transaksi blockchain berhasil.
 ## Konsep Web3 yang Diterapkan
 
 * Kepemilikan aset sepenuhnya oleh pengguna
