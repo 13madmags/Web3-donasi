@@ -59,7 +59,7 @@ app.listen(5000, () => {
   console.log("Backend running on http://localhost:5000");
 });
 
-// 🔹 ENDPOINT DUMMY SESUAI SOAL
+// 🔹 ENDPOINT DUMMY
 app.get("/api/transactions", (req, res) => {
   res.json([
     {
