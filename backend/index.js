@@ -58,3 +58,21 @@ app.listen(5000, () => {
 app.listen(5000, () => {
   console.log("Backend running on http://localhost:5000");
 });
+
+// 🔹 ENDPOINT DUMMY SESUAI SOAL
+app.get("/api/transactions", (req, res) => {
+  res.json([
+    {
+      from: "0x1234567890abcdef",
+      to: "0xabcdef1234567890",
+      amount: "0.05 ETH",
+      status: "success",
+    },
+    {
+      from: "0xabcdef9876543210",
+      to: "0x1234567890abcdef",
+      amount: "0.1 ETH",
+      status: "success",
+    },
+  ]);
+});
